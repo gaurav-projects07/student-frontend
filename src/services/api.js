@@ -1,4 +1,4 @@
-const API_URL = "https://student-api-zm3u.onrender.com";
+const API_URL = "https://student-api-zm3u.onrender.com/api";
 
 export const registerUser = async (data) => {
     const response = await fetch(`${API_URL}/auth/register`, {
