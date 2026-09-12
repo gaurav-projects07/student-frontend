@@ -36,7 +36,9 @@ A full-stack Student Management System built with React, Node.js, Express.js and
 
 
 
-Frontend:
+\### Frontend
+
+
 
 \- React
 
@@ -50,7 +52,9 @@ Frontend:
 
 
 
-Backend:
+\### Backend
+
+
 
 \- Node.js
 
@@ -160,9 +164,15 @@ MongoDB Atlas
 
 Add Student  → Create
 
+
+
 View Student → Read
 
+
+
 Edit Student → Update
+
+
 
 Delete Student → Delete
 
