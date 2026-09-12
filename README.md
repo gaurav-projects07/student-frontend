@@ -4,7 +4,7 @@ A full-stack Student Management System developed using React, Node.js, Express.j
 
 ## Live Demo
 
-Add your deployed frontend link here.
+https://github.com/gaurav-projects07/student-frontend.git
 
 ## Features
 
