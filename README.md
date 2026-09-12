@@ -1,16 +1,254 @@
-# React + Vite
+\# Student Management System
 
-This template provides a minimal setup to get React working in Vite with HMR and some Oxlint rules.
 
-Currently, two official plugins are available:
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+A full-stack Student Management System built with React, Node.js, Express.js and MongoDB.
 
-## React Compiler
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
 
-## Expanding the Oxlint configuration
+\## Features
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and Oxlint's TypeScript related rules in your project.
+
+
+\- User Registration
+
+\- User Login
+
+\- JWT Authentication
+
+\- Student Dashboard
+
+\- Add Student
+
+\- View Student
+
+\- Edit Student
+
+\- Delete Student
+
+\- MongoDB Atlas Database
+
+\- Responsive UI
+
+
+
+\## Tech Stack
+
+
+
+Frontend:
+
+\- React
+
+\- JavaScript
+
+\- React Router
+
+\- Vite
+
+\- CSS
+
+
+
+Backend:
+
+\- Node.js
+
+\- Express.js
+
+\- MongoDB
+
+\- Mongoose
+
+\- JWT
+
+
+
+\## Project Structure
+
+
+
+student-frontend/
+
+|
+
++-- public/
+
+|
+
++-- src/
+
+|   |
+
+|   +-- pages/
+
+|   |   +-- Login.jsx
+
+|   |   +-- Register.jsx
+
+|   |   +-- Dashboard.jsx
+
+|   |   +-- AddStudent.jsx
+
+|   |   +-- EditStudent.jsx
+
+|   |   +-- StudentDetails.jsx
+
+|   |
+
+|   +-- services/
+
+|   |   +-- api.js
+
+|   |
+
+|   +-- App.jsx
+
+|   +-- App.css
+
+|   +-- index.css
+
+|   +-- main.jsx
+
+|
+
++-- .gitignore
+
++-- package.json
+
++-- package-lock.json
+
++-- vite.config.js
+
+
+
+\## Application Flow
+
+
+
+React Frontend
+
+&#x20;     |
+
+&#x20;     v
+
+REST API
+
+&#x20;     |
+
+&#x20;     v
+
+Express.js Backend
+
+&#x20;     |
+
+&#x20;     v
+
+JWT Authentication
+
+&#x20;     |
+
+&#x20;     v
+
+MongoDB Atlas
+
+
+
+\## Student Operations
+
+
+
+Add Student  → Create
+
+View Student → Read
+
+Edit Student → Update
+
+Delete Student → Delete
+
+
+
+\## Installation
+
+
+
+Clone the repository:
+
+
+
+git clone YOUR\_FRONTEND\_REPOSITORY\_URL
+
+
+
+Go to the project folder:
+
+
+
+cd student-frontend
+
+
+
+Install dependencies:
+
+
+
+npm install
+
+
+
+Start the application:
+
+
+
+npm run dev
+
+
+
+The application runs on:
+
+
+
+http://localhost:5173
+
+
+
+\## Backend
+
+
+
+The backend provides REST APIs for authentication and student management.
+
+
+
+Backend Repository:
+
+
+
+https://github.com/gaurav-projects07/student-api
+
+
+
+\## Future Improvements
+
+
+
+\- Search and filtering
+
+\- Pagination
+
+\- Role-based authentication
+
+\- Better form validation
+
+\- Automated testing
+
+\- Production deployment
+
+
+
+\## Author
+
+
+
+Gaurav Mishra
+
